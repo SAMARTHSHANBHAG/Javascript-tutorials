@@ -35,7 +35,7 @@
 
 // let isLoggedOff = "Java"
 // let booleanIsLoggedOff = Boolean(isLoggedOff)
-// console.log(booleanIsLoggedOff);
+// console.log(booleanIsLoggedOff); //Output : True
 
 // Note: 1 => true; 0 => false
 // "" => false
