@@ -47,5 +47,53 @@
 // console.log(typeof stringNumber);
 
 
+// *********************** Operations ***********************
+
+// let val = 3
+// let negVal = -val // Basic negation
+// console.log(negVal);
+
+// Basic arithmatic operations
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Samarth"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(true); //Output : true
+// console.log(+true); //Output : 1
+// console.log(+""); //Output : 0
+
+// let num1, num2, num3;
+// num1 = num2 = num3 = 2 + 2; Bad code practices, we need good code readablity
+
+// let gameCounter = 100
+// gameCounter++; //Increment
+// console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
