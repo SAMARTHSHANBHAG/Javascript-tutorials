@@ -36,4 +36,4 @@ console.log(typeof bigNumber);
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-//  Stack memory (Primitive types), heap memory(Non primitive types)
+//  Stack memory(Primitive types), heap memory(Non primitive types)
