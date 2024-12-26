@@ -23,9 +23,38 @@ const temperature = 27
 // console.log(`User power: ${power}`); // ReferenceError: power is not defined. Not in scope
 // If var had been used to define power then it could have been accessed here as 'var' has global scope
 
-// Implicit if
+// Implicit scope
 const balance = 1000
 // if (balance > 500) console.log("There is enough balance"), console.log("End"); // Bad code readablity
+
+// if (balance < 500) {
+//     console.log("Less than 500");
+    
+// } else if (balance < 750) {
+//     console.log("less than 750");
+    
+// } else if (balance < 900) {
+//     console.log("Less than 900");
+    
+// } else {
+//     console.log("Less than 1200");
+    
+// }
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInByGoogle = false
+const loggedInByEmail = true
+
+if (userLoggedIn && debitCard) { //In AND condition, both cases must be true
+    console.log("Allowed to buy courses");
+    
+}
+
+if (loggedInByGoogle || loggedInByEmail) { // In OR condition, any one should be true
+    console.log("User logged in");
+    
+}
 
 
 
