@@ -10,7 +10,7 @@ let accountState;
 myEmail = "sam@123.com" //Allowed to change when LET is used
 // console.log(myEmail);
 
-myPassword = "789" //ALlowed to change
+myPassword = "789" //Allowed to change
 // console.log(myPassword);
 
 myCity = "Pune"
