@@ -9,7 +9,7 @@ const user = {
 }
 // user.welcomeMessage() // Hello Samarth, welcome to the website!
 // user.username = "Sam"
-// user.welcomeMessage() // Hello Sam, welcome to the website!
+// user.welcomeMessage() // Hello Samarth, welcome to the website! and prints the object info
 // console.log(this); // {} NO Context
 
 // function chai() {
@@ -35,10 +35,10 @@ const user = {
 // chai1()
 
 // Arrow function to add two numbers
-// const addTwoNums = (num1, num2) => {
-//     return num1 + num2
-// }
-// console.log(addTwoNums(3, 4));
+const addTwoNums1 = (num1, num2) => {
+    return num1 + num2
+}
+console.log(addTwoNums1(3, 4));
 
 // Arrow function to add two numbers with implicit return
 // const addTwoNums = (num1, num2) =>  num1 + num2 //No curly braces, no return keyword    
