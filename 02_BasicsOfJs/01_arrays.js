@@ -1,9 +1,9 @@
 // array
 
-// const myArray = [0, 1, 2, 3, 4, true, "Samarth"]
-// // console.log(myArray[0]);
-// const myHeroes = ["Batman", "Shaktiman"]
-// const myArray2 = new Array(6, 7, 8, 9)
+const myArray = [0, 1, 2, 3, 4, true, "Samarth"]
+// console.log(myArray[0]);
+const myHeroes = ["Batman", "Shaktiman"]
+const myArray2 = new Array(6, 7, 8, 9)
 // console.log(myArray2);
 
 // Array methods
@@ -11,11 +11,18 @@
 const MyArray = [0, 1, 2, 3, 4, 5, 6, 7]
 
 // MyArray.push(8)
-// MyArray.push(9)
-// MyArray.pop()
+// console.log(MyArray);
 
-// // MyArray.unshift(9)
+// MyArray.push(9)
+// console.log(MyArray);
+// MyArray.pop()
+// console.log(MyArray);
+
+
+// MyArray.unshift(9)
+
 // MyArray.shift()
+// console.log(MyArray);
 
 // console.log(MyArray.includes(5));
 // console.log(MyArray.indexOf(8));
