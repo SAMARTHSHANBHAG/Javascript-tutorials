@@ -35,23 +35,23 @@ for (let index = 0; index < myArray.length; index++) {
 
 // Break and continue keywords
 
-// for (let index = 0; index <= 20; index++) {
-//     if (index == 5) {
-//        console.log("detected 5");
-//         break
-//     }
-//     console.log(`Value of i is ${index}`);
+for (let index = 0; index <= 20; index++) {
+    if (index == 5) {
+       console.log("detected 5");
+        break
+    }
+    // console.log(`Value of i is ${index}`);
     
     
-// }
+}
 
 
 for (let index = 0; index <= 20; index++) {
     if (index == 5) {
-    //    console.log("detected 5");
+       console.log("detected 5");
         continue
     }
-    console.log(`Value of i is ${index}`);
+    // console.log(`Value of i is ${index}`);
     
     
 }
