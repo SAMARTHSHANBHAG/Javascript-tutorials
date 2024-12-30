@@ -22,7 +22,7 @@ const jsUser = {
 // console.log(jsUser["full name"]); 
 
 // console.log(jsUser.mySym); // Key1 
-// console.log(typeof jsUser.mySym); //String type. This i a wrong syntax
+// console.log(typeof jsUser.mySym); //String type. This is a wrong syntax
 // console.log(jsUser[mySym]); // Syntax for accessing a symbol
 
 jsUser.email = "samarth@gpt.com"
