@@ -15,13 +15,13 @@ const hundreds = 1000000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-console.log(Math);
-console.log(Math.abs(-4)); //Output: 4, negative ko positive karta hai, +ve same rahega
-console.log(Math.round(4.6)); // Normal round off
-console.log(Math.ceil(4.2)); // Upper(Higher) number on number line is returned
-console.log(Math.floor(-2.1)); // Lower(Lesser) number on number line is returned
-console.log(Math.min(4, 5, 1, 9)); // Output : 1
-console.log(Math.max(6, 9, 1, 10));// Output: 10
+// console.log(Math);
+// console.log(Math.abs(-4)); //Output: 4, negative ko positive karta hai, +ve same rahega
+// console.log(Math.round(4.6)); // Normal round off
+// console.log(Math.ceil(4.2)); // Upper(Higher) number on number line is returned
+// console.log(Math.floor(-2.1)); // Lower(Lesser) number on number line is returned
+// console.log(Math.min(4, 5, 1, 9)); // Output : 1
+// console.log(Math.max(6, 9, 1, 10));// Output: 10
 
 // console.log(Math.random()); Returns a random value between 0 and 1
 // console.log(Math.floor(Math.random() * 10) + 1); // To always get a proper random number
