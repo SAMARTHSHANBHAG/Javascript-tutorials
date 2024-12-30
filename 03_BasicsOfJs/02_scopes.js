@@ -4,14 +4,13 @@
 // var c = 300
 // let a = 1222
 
-// if(true) {
-//   let a = 1
-//   const b = 2
-  // var c = 3
+if(true) {
+  let a = 1
+  const b = 2
+  var c = 3
   // console.log("INNER: ", a);  // 1
-  
-// }
-// console.log(a); 
+  }
+// console.log(a); // a , not defined
 // console.log(b); //Error, b not defined
 // console.log(c); // 3 This is a problem. Should not have happened. This is why we avoid using var
 
@@ -24,7 +23,7 @@ function one() {
     // console.log(username);
     
   }
-  // console.log(website);
+  // console.log(website); // error website not defined
     two()
   
 }
@@ -35,7 +34,7 @@ if(true) {
   const username = "Sammy"
   if (username === "Sammy") {
     const web = " google"
-    console.log(username + web); // Sammy google
+    // console.log(username + web); // Sammy google
     
 
   }
