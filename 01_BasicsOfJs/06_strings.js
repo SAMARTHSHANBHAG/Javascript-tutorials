@@ -14,17 +14,17 @@ const gameName = new String('clash-of-clans')
 const newString = gameName.substring(0, 5)
 // console.log(newString);
 
-// const anotherString = gameName.slice(-1, 2)
+const anotherString = gameName.slice(-1, 2)
 // console.log(anotherString);
 
-// const newStringOne = "  Sam  "
-// console.log(newStringOne);
-// console.log(newStringOne.trim());
+const newStringOne = "  Sam  "
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
 const url = "https://samarth.com/samarth%20shanbhag"
 
 // console.log(url.replace("%20", "-"));
-// console.log(url.includes('sama')); //True
+console.log(url.includes('sama')); //True
 console.log(gameName.split('-'));
 
 
