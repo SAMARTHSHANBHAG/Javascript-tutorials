@@ -6,7 +6,7 @@ const obj8 = {
 }
 
 for (const key in obj8) {
-        // console.log(`${key} is a shortcut for ${obj8[key]}`);
+        console.log(`${key} is a shortcut for ${obj8[key]}`);
         }
 
 
