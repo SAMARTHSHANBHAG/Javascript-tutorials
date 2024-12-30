@@ -15,7 +15,7 @@ console.log(all_new_heroes); // [ 'ironman', 'spiderman', 'thor', 'Flash', 'Supe
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const usable_another_array = another_array.flat(Infinity)
-// console.log(usable_another_array); // [1, 2, 3, 4, 5,6, 7, 6, 7, 4, 5]
+// console.log(usable_another_array); // [1, 2, 3, 4, 5, 6, 7, 6, 7, 4, 5]
 
 
 console.log(Array.isArray("Samarth")); // false
