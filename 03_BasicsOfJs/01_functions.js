@@ -30,15 +30,15 @@ function addTwoNumbers(number1, number2) {
 // const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
-// function userLoggedIn(username = "sam"){ // = "sam", default value
-//     if(!username) {
-//       // username === undefined
-//       console.log("Please enter a username");
-//       return;
-//     }
-//     return `${username} just logged in!`
-// }
-// console.log(userLoggedIn());
+function userLoggedIn(username = "sam"){ // = "sam", default value
+    if(!username) {
+      // username === undefined
+      console.log("Please enter a username");
+      return;
+    }
+    return `${username} just logged in!`
+}
+console.log(userLoggedIn());
 
 
 // function calculateCartPrice(num1) {
@@ -75,8 +75,8 @@ const myNewArray = [200, 400, 100, 600]
 function returnSecondValue(getArray) {
     return getArray[1]
 }
-console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([1, 555, 748, 59]));
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([1, 555, 748, 59]));
 
 
 
