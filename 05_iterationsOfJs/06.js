@@ -1,15 +1,15 @@
-// const coding = ["java", "cpp", "python", "ruby", "swift"];
+const coding = ["java", "cpp", "python", "ruby", "swift"];
 
-// const values = coding.forEach((item) => {
-//   console.log(item);
-    //  return item
-// });
+const values = coding.forEach((item) => {
+  console.log(item);
+     return item
+});
 // console.log(values); // For each does not have a return type
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
 
 const newNums = myNums.filter( (num) => num > 4 )
-console.log(newNums); //[ 5, 6, 7, 8, 9, 10 ]
+// console.log(newNums); //[ 5, 6, 7, 8, 9, 10 ]
 
 // In the same way, if we define a scope, then we will have to use return keyword
 
@@ -25,7 +25,7 @@ myNums.forEach( (num) => {
         newNums.push(num)
     }
 } )
-console.log(newNums1); // [ 5, 6, 7, 8, 9, 10 ]
+// console.log(newNums1); // [ 5, 6, 7, 8, 9, 10 ]
 
 
 const books = [
@@ -45,6 +45,6 @@ const books = [
 
 const userBooks1 = books.filter( (bk) => bk.publish >= 1995 && bk.genre === "History"  )
 
-console.log(userBooks1);
+// console.log(userBooks1);
 
 
