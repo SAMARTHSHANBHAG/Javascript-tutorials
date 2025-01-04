@@ -32,7 +32,7 @@ const myFunc = function(){
     
 }
 
-console.log(typeof bigNumber);
+console.log(typeof bigNumber); //bigint
 
 // ----------------------------------------------------------------------------------------------------------------------
 
