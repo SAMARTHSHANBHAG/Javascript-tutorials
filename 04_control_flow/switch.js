@@ -22,7 +22,7 @@ switch (month) {
     case "april":
         console.log("April");
         break;
-    case 5:
+    case "may":
         console.log("may");
         break;
     case 6:
