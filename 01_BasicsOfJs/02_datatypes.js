@@ -12,7 +12,7 @@ let age = 21 // number datatype
 let isLoggedIn = true
 let state; //undefined
 
-// All data types overview
+// An overview of all datatypes:-
 // number => 2 to power 53
 // bigint
 // string => ""
