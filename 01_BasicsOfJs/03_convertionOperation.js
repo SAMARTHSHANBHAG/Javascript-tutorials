@@ -1,9 +1,9 @@
 let score = "33"
 
-// console.log(typeof score);
+// console.log(typeof score); //string
 
 let valueInNumber = Number(score)
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber); //number
 
 let a = "22abc"
 let numOfA = Number(a)
