@@ -27,11 +27,11 @@ const MyArray = [0, 1, 2, 3, 4, 5, 6, 7]
 // console.log(MyArray.includes(5));
 // console.log(MyArray.indexOf(8));
 
-// const newArray = MyArray.join()
+const newArray = MyArray.join()
 
 // console.log(MyArray); // output : [0, 1, 2, 3,4, 5, 6, 7]
 // console.log(newArray); // output : 0,1,2,3,4,5,6,7  
-// console.log(typeof newArray); // String type
+console.log(typeof newArray); // String type
 
 // SLICE, SPLICE
 Myprac = [0, 1, 2, 3, 4, 5]
