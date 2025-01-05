@@ -30,7 +30,7 @@ const shoppingCart = [
 ]
 
 const PriceTopay = shoppingCart.reduce( (acc, item) => acc + item.price, 0 )
-console.log(PriceTopay);
+// console.log(PriceTopay);
 
 
 
