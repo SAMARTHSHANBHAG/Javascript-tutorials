@@ -70,10 +70,25 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
-    document.getElementById('owl').addEventListener('click', function(e) {
-        console.log(e);
+    // document.getElementById('owl').addEventListener('click', function(e) {
+    //     console.log(e);
+        
+    // }, false)
+    
+    document.getElementById('images').addEventListener('click', function(e) {
+        console.log("Clicked inside ul");
         
     }, false)
+    
+    document.getElementById('owl').addEventListener('click', function(e) {
+        console.log("owl clicked");
+        // e.stopPropagation() // Stops bubbling, prints "owl clicked ONLY"
         
+    }, false)
+// In the above two lines, "false" uses the conecept of 'bubbling' up. Hence first "owl clicked" got printed
+// and then "clicked inside ul got printed. Order would have been reveresed if we used "true", because of the"
+// concept of capturing. It goes from top to bottom. Both approaches are correct. It is a matter of usecase
+
+
   </script>
 </html>
