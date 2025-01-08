@@ -10,8 +10,16 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    setTimeout(function() {
+    const sayHi = function() {
         console.log("Hi Sam!");
-    }, 2000)
+    }
+    // setTimeout(, 2000)
+    // setTimeout(sayHi, 4000)
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Js is interesting"
+    }
+    setTimeout(changeText, 4000)
+
 </script>
 </html>
