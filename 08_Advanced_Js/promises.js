@@ -25,3 +25,14 @@ new Promise(function(resolve, reject){
     console.log("Async 2 resolved");
     
 })
+
+const promiseThree = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        resolve({username : "Sam", email : "sam@gpt6.com" })
+    }, 1000)
+})
+
+promiseThree.then(function(user){
+    console.log(user);
+    
+})
