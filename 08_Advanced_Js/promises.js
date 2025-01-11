@@ -8,10 +8,10 @@
 //     }, 1000)
 // })
 
-promiseOne.then(function() {
-    console.log("Promise has been consumed");
+// promiseOne.then(function() {
+//     console.log("Promise has been consumed");
     
-})
+// })
 
 // Creating a promise without holding it in a variable
 
