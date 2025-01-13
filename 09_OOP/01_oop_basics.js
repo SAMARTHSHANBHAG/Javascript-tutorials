@@ -16,3 +16,16 @@ const user = {
 console.log(user.username);
 // console.log(user.getUserdetails());
 // console.log(this) // empty object, has no context
+
+function User(username, logincount, isLoggedIn) {
+    this.username = username;
+    this.lologincount =logincount;
+    this.isLoggedIn = isLoggedIn;
+
+    return this
+
+}
+
+const userOne = User("Samarth", 11, true)
+console.log(userOne);
+
