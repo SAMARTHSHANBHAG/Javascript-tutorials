@@ -19,6 +19,13 @@ Object.prototype.samarth = function(){
     console.log("Samarth is present in all objects");
     
 }
+Array.prototype.heySamarth = function(){
+    console.log(`Hello Samarth Shanbhag`);
+    
+}
 
-heropower.samarth()
-myheros.samarth()
+// heropower.samarth() // Samarth is present in all objects
+// myheros.samarth() // Samarth is present in all objects
+// heropower.heySamarth() // ERROR, only array has been given that method. Not the object which is higher in heirarchy
+// myheros.heySamarth() // Hello Samarth Shanbhag
+
