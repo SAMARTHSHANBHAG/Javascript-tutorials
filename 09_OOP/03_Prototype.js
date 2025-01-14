@@ -29,3 +29,19 @@ Array.prototype.heySamarth = function(){
 // heropower.heySamarth() // ERROR, only array has been given that method. Not the object which is higher in heirarchy
 // myheros.heySamarth() // Hello Samarth Shanbhag
 
+
+
+// Inheritance
+
+const User = {
+    name : "Sam",
+    email : "sam@g.com"
+}
+const teacher = {
+    makeVideo : true
+}
+
+
+
+
+
