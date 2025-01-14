@@ -40,7 +40,17 @@ const User = {
 const teacher = {
     makeVideo : true
 }
+const teachingSupport = {
+    isAvailable : false
+}
+const TAsupport = {
+    makeAssignment : 'Js codes',
+    fullTime : true,
+    __proto__: teachingSupport
+}
+teacher.__proto__ = User
 
+// Modern Syntax
 
 
 
