@@ -51,7 +51,27 @@ const TAsupport = {
 teacher.__proto__ = User
 
 // Modern Syntax
+Object.setPrototypeOf(teachingSupport, teacher) // 2 params: - (Kiska, Kiske paas)
 
+let anotherUsername = "Raghuveer    "
 
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    console.log(`True length is: ${this.trim().length}`);
+    
+    
+}
+anotherUsername.trueLength()
+// Raghuveer    
+// True length is: 9
 
+"hitesh".trueLength()
+// hitesh
+// True length is: 6
+
+"backend".trueLength()
+// backend
+// True length is: 7
+
+// Remember : - this ke paas context hai. 'Jis' ne bulaaya hai, uska context 'this' ke paas hai
 
