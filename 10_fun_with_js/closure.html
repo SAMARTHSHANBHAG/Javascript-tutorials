@@ -17,26 +17,26 @@
     // }
     // init();
 
-    function outer(){
-        let username = "sammy"
-        // console.log("Outer", secret); // Reference error
+    // function outer(){
+    //     let username = "sammy"
+    //     // console.log("Outer", secret); // Reference error
         
-        function inner(){
-            let secret = "my123"
-            console.log("Inner: ", username);
+    //     function inner(){
+    //         let secret = "my123"
+    //         console.log("Inner: ", username);
             
-        }
-        function innerTwo(){
-            console.log("Inner Two: ", username);
-            // console.log(secret); // Reference error, no sharing between two siblings
+    //     }
+    //     function innerTwo(){
+    //         console.log("Inner Two: ", username);
+    //         // console.log(secret); // Reference error, no sharing between two siblings
             
             
-        }
-        inner()
-        innerTwo()
-    }
-    outer()
-    console.log("Outer: ", username);
+    //     }
+    //     inner()
+    //     innerTwo()
+    // }
+    // outer()
+    // console.log("Outer: ", username);
     
   </script>
 </html>
