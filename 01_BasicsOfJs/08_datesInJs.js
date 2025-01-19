@@ -1,10 +1,10 @@
 // Dates
 
 let myDate = new Date()
-// console.log(myDate.toString()); // Tue Dec 24 2024 00:41:02 GMT+0530 (India Standard Time)
-// console.log(myDate.toDateString()); // Tue Dec 24 2024
-// console.log(myDate.toLocaleString()); // 24/12/2024, 12:42:11 am
-// console.log(typeof myDate); //object
+console.log(myDate.toString()); // Tue Dec 24 2024 00:41:02 GMT+0530 (India Standard Time)
+console.log(myDate.toDateString()); // Tue Dec 24 2024
+console.log(myDate.toLocaleString()); // 24/12/2024, 12:42:11 am
+console.log(typeof myDate); //object
 
 let myCreatedDate = new Date(2023, 0, 3)
 // console.log(myCreatedDate.toDateString());
