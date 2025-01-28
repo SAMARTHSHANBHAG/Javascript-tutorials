@@ -24,7 +24,7 @@ const hundreds = 1000000
 // console.log(Math.max(6, 9, 1, 10));// Output: 10
 
 // console.log(Math.random()); Returns a random value between 0 and 1
-// console.log(Math.floor(Math.random() * 10) + 1); // To always get a proper random number
+console.log(Math.floor(Math.random() * 10) + 1); // To always get a proper random number
 
 const min = 10
 const max = 20
