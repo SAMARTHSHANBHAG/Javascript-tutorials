@@ -14,7 +14,7 @@ myPassword = "789" //Allowed to change
 // console.log(myPassword);
 
 myCity = "Pune"
-// console.log(myCity)
+console.log(myCity)
 
 console.table([mySalary, myEmail, myPassword, myCity, accountState])
 
