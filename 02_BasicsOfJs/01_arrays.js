@@ -42,9 +42,9 @@ const myA1 = Myprac.slice(1, 3)
 console.log(myA1); // [1,2]
 console.log("B", Myprac); // B [ 0, 1, 2, 3, 4, 5 ]
 
-const myA2 = Myprac.splice(1, 3)
-console.log(myA2); // [1, 2, 3 ]
-console.log("C", Myprac); // C [ 0, 4, 5 ]
+// const myA2 = Myprac.splice(1, 3)
+// console.log(myA2); // [1, 2, 3 ]
+// console.log("C", Myprac); // C [ 0, 4, 5 ]
 
 
 
