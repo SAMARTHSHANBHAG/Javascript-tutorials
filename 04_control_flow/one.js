@@ -3,14 +3,14 @@
 const IsLoggedIn = true
 const temperature = 27
 
-// if(temperature == 28) {
-//     console.log("The temperature is exact1");
+if(temperature == 28) {
+    console.log("The temperature is exact1");
     
-// } else {
-//     console.log("The temperature is not exact");
+} else {
+    console.log("The temperature is not exact");
     
-// }
-// console.log("Execute"); // Will be executed in all cases as it is out of the condition
+}
+console.log("Execute"); // Will be executed in all cases as it is out of the condition
 // Types of comparisons : <, >, <=, >=, ==, ===, !=, !==
 
 // const score = 200
