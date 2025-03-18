@@ -8,7 +8,7 @@ let accountState;
 // console.log(mySalary);
 
 myEmail = "sam@123.com" //Allowed to change when LET is used
-// console.log(myEmail);
+console.log(myEmail);
 
 myPassword = "789" //Allowed to change
 // console.log(myPassword);
