@@ -1,7 +1,7 @@
 const name = "Samarth"
 const repoCount = 12
 // console.log(name + repoCount + "value"); OUTDATED WAY
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}.`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}.`);
 
 const gameName = new String('clash-of-clans')
 // console.log(gameName[0]);
@@ -12,7 +12,7 @@ const gameName = new String('clash-of-clans')
 // console.log(gameName.indexOf('o'));
 
 const newString = gameName.substring(0, 5)
-// console.log(newString);
+console.log(newString);
 
 const anotherString = gameName.slice(-1, 2)
 // console.log(anotherString);
