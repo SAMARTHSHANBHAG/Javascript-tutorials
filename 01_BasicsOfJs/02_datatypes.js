@@ -9,7 +9,7 @@
 
 let name = "Samarth" //String datatype
 let age = 21 // number datatype
-let isLoggedIn = true
+let isLoggedIn = true // Boolean datatype
 let state; //undefined
 
 // An overview of all datatypes:-
