@@ -56,6 +56,20 @@ if (loggedInByGoogle || loggedInByEmail) { // In OR condition, any one should be
     
 }
 
+// Condition challenges
+
+// Checking if one number if greater than another
+num1 = 5
+num2 = 8
+
+if (num1 > num2) {
+    console.log("Num 1 is greater");
+    
+} else {
+    console.log("Num 2 is greater");
+    
+}
+
 
 
 
