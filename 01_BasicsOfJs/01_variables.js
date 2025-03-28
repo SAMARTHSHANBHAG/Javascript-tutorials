@@ -19,6 +19,7 @@ console.log(myCity)
 console.table([mySalary, myEmail, myPassword, myCity, accountState])
 
 /*
+Multiline comment
 Prefer not to use 'var' beacuse of block scope and functional scope issue
 */
 

@@ -18,7 +18,7 @@ let state; //undefined
 // string => ""
 // boolean => true/false
 // null => standalone value, representation of empty value
-// undefined => 
+// undefined  
 // symbol => unique
 
 // object
