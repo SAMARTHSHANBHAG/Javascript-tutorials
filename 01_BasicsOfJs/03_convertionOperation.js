@@ -1,6 +1,6 @@
 let score = "33"
 
-console.log(typeof score); //string
+// console.log(typeof score); //string
 
 let valueInNumber = Number(score)
 // console.log(typeof valueInNumber); //number
@@ -76,6 +76,8 @@ let str3 = str1 + str2
 // console.log(true); //Output : true
 // console.log(+true); //Output : 1
 // console.log(+""); //Output : 0
+console.log(+false); // Output : 0
+
 
 // let num1, num2, num3;
 // num1 = num2 = num3 = 2 + 2; Bad code practices, we need good code readablity
