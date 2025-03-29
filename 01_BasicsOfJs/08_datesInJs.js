@@ -8,11 +8,11 @@ console.log(typeof myDate); //object
 
 let myCreatedDate = new Date(2023, 0, 3)
 // console.log(myCreatedDate.toDateString());
-// let myCreatedDate1 = new Date(2023, 0, 3, 5, 4)
+let myCreatedDate1 = new Date(2023, 0, 3, 5, 4)
 // console.log(myCreatedDate1.toLocaleString());
-// let myCreatedDate2 = new Date("2023-12-7")
+let myCreatedDate2 = new Date("2023-12-7")
 // console.log(myCreatedDate2.toLocaleString());
-// let myCreatedDate3 = new Date("01-14-2023")
+let myCreatedDate3 = new Date("01-14-2023")
 // console.log(myCreatedDate3.toLocaleString());
 
 let myTimeStamp = Date.now()
