@@ -10,22 +10,22 @@ const gameName = new String('clash-of-clans')
 // console.log(gameName.toLocaleUpperCase());
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('o'));
+// console.log(gameName.split('-'));
 
 const newString = gameName.substring(0, 5)
-console.log(newString);
+// console.log(newString);
 
 const anotherString = gameName.slice(-1, 2)
-// console.log(anotherString);
+// console.log(anotherString); // When start is negative and end is positive but less than start, slice returns an empty string.
 
 const newStringOne = "  Sam  "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
 const url = "https://samarth.com/samarth%20shanbhag"
 
-// console.log(url.replace("%20", "-"));
+console.log(url.replace("%20", "-"));
 console.log(url.includes('sama')); //True
-console.log(gameName.split('-'));
 
 
 
