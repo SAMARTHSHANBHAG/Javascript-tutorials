@@ -1,10 +1,10 @@
 const marvel_heroes = ["ironman", "spiderman", "thor"]
 const dc_heroes = ["Flash", "Superman", "Batman"]
 
-marvel_heroes.push(dc_heroes)
-console.log(marvel_heroes); // [ 'ironman', 'spiderman', 'thor', [ 'Flash', 'Superman', 'Batman' ] ]
-console.log(marvel_heroes[3]); // [ 'Flash', 'Superman', 'Batman' ]
-console.log(marvel_heroes[3][1]); // Superman
+// marvel_heroes.push(dc_heroes)
+// console.log(marvel_heroes); // [ 'ironman', 'spiderman', 'thor', [ 'Flash', 'Superman', 'Batman' ] ]
+// console.log(marvel_heroes[3]); // [ 'Flash', 'Superman', 'Batman' ]
+// console.log(marvel_heroes[3][1]); // Superman
 
 const all_heroes = marvel_heroes.concat(dc_heroes)
 console.log(all_heroes); // [ 'ironman', 'spiderman', 'thor', 'Flash', 'Superman', 'Batman' ]
