@@ -4,7 +4,7 @@ const IsLoggedIn = true
 const temperature = 27
 
 if(temperature == 28) {
-    console.log("The temperature is exact1");
+    console.log("The temperature is exact");
     
 } else {
     console.log("The temperature is not exact");
