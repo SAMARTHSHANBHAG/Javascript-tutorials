@@ -39,7 +39,7 @@ let booleanIsLoggedOff = Boolean(isLoggedOff)
 
 // Note: 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "samarth" => true
 
 let someNumber = 33
 let stringNumber = String(someNumber)
