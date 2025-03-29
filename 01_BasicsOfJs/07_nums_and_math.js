@@ -11,11 +11,11 @@ const otherNumber = 123.8966
 // console.log(otherNumber.toPrecision(4)); //123.9
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN')); // 10,00,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-// console.log(Math);
+console.log(Math);
 // console.log(Math.abs(-4)); //Output: 4, negative ko positive karta hai, +ve same rahega
 // console.log(Math.round(4.6)); // Normal round off
 // console.log(Math.ceil(4.2)); // Upper(Higher) number on number line is returned
@@ -24,12 +24,12 @@ const hundreds = 1000000
 // console.log(Math.max(6, 9, 1, 10));// Output: 10
 
 // console.log(Math.random()); Returns a random value between 0 and 1
-console.log(Math.floor(Math.random() * 10) + 1); // To always get a proper random number
+// console.log(Math.floor(Math.random() * 10) + 1); // To always get a proper random number
 
 const min = 10
 const max = 20
 
-console.log(Math.floor( Math.random() * (max - min + 1)) + min);
+// console.log(Math.floor( Math.random() * (max - min + 1)) + min);
  
 
 
