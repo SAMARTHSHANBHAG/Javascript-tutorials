@@ -26,8 +26,8 @@ let numOfName = Number(name)
 //  true => 1; false => 0
 
 let isLoggedIn = false
-let booleanIsLoggedIn = Number(isLoggedIn)
-// console.log(booleanIsLoggedIn); // output 0
+let numberIsLoggedIn = Number(isLoggedIn)
+// console.log(numberIsLoggedIn); // output 0
 
 let emptyString = ""
 let boolOfEmptyString = Boolean(emptyString)
