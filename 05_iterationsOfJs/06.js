@@ -2,7 +2,7 @@ const coding = ["java", "cpp", "python", "ruby", "swift"];
 
 const values = coding.forEach((item) => {
   // console.log(item);
-  //    return item
+    //  return item
 });
 // console.log(values); // For each does not have a return type
 
