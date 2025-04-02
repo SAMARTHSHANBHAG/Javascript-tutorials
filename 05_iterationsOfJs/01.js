@@ -11,10 +11,10 @@ for (let i = 0; i <= 10; i++) {
 // console.log(element); //ReferenceError: element is not defined
 
 // Loop inside a loop
-// for (let j = 0; j <= 10; j++) {
+// for (let j = 1; j <= 10; j++) {
 //     console.log(`Multiplication table of: ${j}`);
     
-//     for (let k = 0; k <= 10; k++) {
+//     for (let k = 1; k <= 10; k++) {
 //         //console.log(`Inner loop: ${k} and inner loop value ${j}`);
 //         console.log(j + '*' + k + ' = ' + j*k);
         
@@ -48,10 +48,10 @@ for (let index = 0; index <= 20; index++) {
 
 for (let index = 0; index <= 20; index++) {
     if (index == 5) {
-       console.log("detected 5");
+    //    console.log("detected 5");
         continue
     }
-    console.log(`Value of i is ${index}`);
+    // console.log(`Value of i is ${index}`);
     
     
 }
