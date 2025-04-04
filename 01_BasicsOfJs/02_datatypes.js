@@ -5,7 +5,7 @@
 // console.log(3+
 //     3
 // );     
-// console.log("Samarth");  This should be avoided, code readablity must be high
+// console.log("Samarth");  This should be avoided, code readablity must be high.
 
 let name = "Samarth" //String datatype
 let age = 21 // number datatype
