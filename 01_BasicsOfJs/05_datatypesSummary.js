@@ -34,6 +34,6 @@ const myFunc = function(){
 
 console.log(typeof bigNumber); //bigint
 
-// ----------------------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------
 
 //  Stack memory(Primitive types), heap memory(Non primitive types)
