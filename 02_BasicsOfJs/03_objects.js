@@ -1,8 +1,3 @@
-// singleton
-// Object.create
-
-// object literals
-
 mySym = Symbol("Key1")
 
 const jsUser = {
