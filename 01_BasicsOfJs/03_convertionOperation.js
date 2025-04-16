@@ -47,7 +47,7 @@ let stringNumber = String(someNumber)
 // console.log(typeof stringNumber); //string
 
 
-// *********************** Operations ***********************
+// *********************** Operations *************************
 
 let val = 3
 let negVal = -val // Basic negation
