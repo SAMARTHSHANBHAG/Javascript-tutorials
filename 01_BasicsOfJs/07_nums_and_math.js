@@ -13,7 +13,7 @@ const otherNumber = 123.8966
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN')); // 10,00,000
 
-// +++++++++++++ Maths +++++++++++++++++++++++++++++
+// +++++++++++++ Maths ++++++++++++++++++++++++++++++
 
 console.log(Math);
 // console.log(Math.abs(-4)); //Output: 4, negative ko positive karta hai, +ve same rahega

@@ -58,7 +58,7 @@ if (loggedInByGoogle || loggedInByEmail) { // In OR condition, any one should be
 
 // Condition challenges
 
-// Checking if one number if greater than another
+// Checking if one number is greater than another
 num1 = 5
 num2 = 8
 
