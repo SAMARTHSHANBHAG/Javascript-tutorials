@@ -1,7 +1,7 @@
 // Immediately Invoked Function Expressions (IIFE)
 ( function iifeLearn() {
   // named IIFE
-  console.log(`Database connected`);
+  console.log(`Database is connected`);
 }) ();
 
 ( (name) => {
