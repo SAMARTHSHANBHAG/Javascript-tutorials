@@ -13,7 +13,7 @@ const user = {
         
     }
 }
-console.log(user.username);
+// console.log(user.username);
 // console.log(user.getUserdetails());
 // console.log(this) // empty object, has no context
 
@@ -33,6 +33,6 @@ function User(username, logincount, isLoggedIn) {
 
 const userOne = new User("Samarth", 11, true)
 const userTwo = new User("Ayush", 11, true)
-console.log(userOne.constructor);
-// console.log(userTwo);
+// console.log(userOne.constructor);
+console.log(userTwo);
 
