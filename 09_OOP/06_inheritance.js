@@ -24,8 +24,8 @@ class Teacher extends User{
 }
 
 const b = new Teacher("Sanjay", "sanjaytsec.com", "1234")
-b.logMe() // Username is Sanjay
-b.addCourse() // A new course was added by Sanjay
+// b.logMe() // Username is Sanjay
+// b.addCourse() // A new course was added by Sanjay
 
 const c = new User("Kk")
 c.logMe()
