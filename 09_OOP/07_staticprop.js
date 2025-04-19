@@ -13,7 +13,8 @@ class User {
 }
 
 const sam = new User("sammy")
-// console.log(sam.createID());
+// console.log(sam.createID()); // TypeError: sam.createID is not a function
+// console.log(User.createID()); // 123
 
 class Teacher extends User {
     constructor(username, email){
